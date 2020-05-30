@@ -5,9 +5,6 @@ from time import sleep
 
 # Put in your username, password, and your tweet in place of the comments.
 
-# Have this script run routinely or on startup...
-# or put in an infinite loop and leave it running.
-
 class TwitterBot():
     def __init__(self):
         self.driver = webdriver.Chrome()
